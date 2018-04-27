@@ -22,6 +22,7 @@ public class BaseAction extends TestBase {
     {
         driver.navigate().to(url);
         log.info("打开浏览器，访问"+url+"网址!");
+        int i=1;
 
     }
     /***
